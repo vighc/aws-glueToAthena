@@ -1,5 +1,7 @@
 # Streaming Data Pipeline with AWS Glue
 
+![AWS Glue Redshift](GlueRedshift.png)
+
 ## Overview
 
 This repository contains code and documentation for a streaming data pipeline built using AWS services and technologies. The pipeline efficiently captures, processes, and visualizes streaming data for robust business analytics.
