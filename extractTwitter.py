@@ -12,7 +12,7 @@ api_key_secret = 'XXXXXXXXXXXXXXXXXXXXX'
 access_token = 'XXXXXXXXXXXXXXXXXXXXX'
 access_token_secret = 'XXXXXXXXXXXXXXXXXXXXX'
 
-def extractTwitter()
+def extractTwitter():
     #Authorization of API key and api secret
     auth = tweepy.OAuthHandler(api_key, api_key_secret)
 
@@ -30,7 +30,7 @@ def extractTwitter()
         user_json = json.dumps(user._json)
     return user_json
 
-def pushKinesis()
+def pushKinesis():
     #Replace this with your Kinesis stream name
     stream_name = 'google-colab'
 
