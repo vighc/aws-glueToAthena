@@ -18,29 +18,17 @@ This repository contains code and documentation for a streaming data pipeline bu
 - Optimize data flow using a Kinesis producer for efficient data capture and transfer.
 - Ensure the Kinesis stream is correctly configured to handle the data volume.
 
-### 3. Parallel Data Processing with AWS Glue and Lambda
-
-- Orchestrate parallel data processing operations with AWS Glue.
-- Utilize Lambda functions to ensure smooth and efficient execution of data tasks.
-  
-### 4. Automated Backup and Data Querying
-
-- Implement automated backup with Kinesis triggers and Lambda functions.
-- Enhance data availability and reliability.
-- Enable streamlined data querying using Athena.
-  
-### 5. End-to-End Data Processing with AWS Glue and Spark
+### 3. End-to-End Advance Data Processing with AWS Glue and Spark
 
 - Leverage AWS Glue and Apache Spark for end-to-end data processing.
 - Includes extraction, cleansing, processing, transformation, and storage of data.
-  
-### 6. Business Analytics and Visualization
 
-- Utilize Amazon Redshift for data warehousing.
-- Enable high-performance querying and analytics on large datasets.
-- Create interactive dashboards and reports for business analytics using Amazon QuickSight.
+### 4. Persistent Storage in S3 Data Lake
 
-## Project Structure
+- Configure the AWS Glue and Spark pipeline to store processed data directly into an S3 bucket, applying effective partitioning strategies for optimized data retrieval.
+- Enforce fine-grained access controls and implement comprehensive monitoring to ensure the security and integrity of the stored data in the S3 data lake.
 
-- `/code`: Contains Python scripts and AWS Glue jobs for data processing.
-- `/documentation`: Includes setup and usage documentation.
+### 5. Advanced Analytics with AWS Athena
+
+- Set up AWS Athena to seamlessly query data stored in the S3 data lake, defining external tables for efficient SQL-based analytics without the need for data movement.
+- Enhance query performance in Athena by implementing optimization techniques, including partitioning, indexing, and selecting appropriate data formats for efficient analysis.
