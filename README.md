@@ -1,6 +1,6 @@
 # Streaming Data Pipeline with AWS Glue
 
-![AWS Glue Redshift](GlueRedshift.png)
+![AWS Glue To Athena](GlueAthena.png)
 
 ## Overview
 
