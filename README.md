@@ -1,6 +1,9 @@
 # Streaming Data Pipeline with AWS Glue
 
+### AWS DataPipeline
 ![AWS Glue To Athena](GlueAthena.png)
+
+### AWS Glue Visual Jobs
 ![AWS Glue Visual](GlueVisuals.png)
 
 ## Overview
